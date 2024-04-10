@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Nimbus sans L;
 }
 html,body{
     width: 100%;
@@ -36,6 +36,7 @@ html,body{
     transform: translate(-50%,-50%);
 }
 #hero{
+    /* background-color: green; */
     display: flex ;
     justify-content: space-between;
     align-items: center;
@@ -45,11 +46,12 @@ html,body{
     /* background-color: red; */
 }
 #sustain p{
+    text-transform: capitalize;
     font-weight: 800;
     opacity: .5;
     font-size: 15px;
     margin: 10px 0;
-    color: gray;
+    /* color: gray; */
 }
 #sustain #susimgwrapper{
     position: relative;
@@ -72,8 +74,8 @@ html,body{
 #ephemeral{
     position: relative;
     width: 30vw;
-    height: 42vw;
-    background-color: rgb(244, 182, 182);
+    min-height: 42vw;
+    /* background-color: rgb(244, 182, 182); */
 }
 #ephemeral h1{
     line-height: 1;
@@ -86,16 +88,22 @@ html,body{
     top: -22%;
     left: -20%;
 }
+#imgntext{
+        /* background-color: red; */
+        width: fit-content;
+        height: fit-content;
+        /* background-color: rebeccapurple; */
+}
 #ephemeral img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 #ephemeral p{
-    position: absolute;
+    /* background-color: red; */
     font-size: 1.2vw;
+    margin-top: 30px;
     width: 100%;
-    top: 105%;
     letter-spacing: -.1vw;
     line-height: 1.3;
     font-weight: 200;
@@ -123,4 +131,57 @@ html,body{
 #visit h3{
     color: #5e5e5e;
     font-weight: 100;
+}
+#motive{
+    margin-top: 3vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+
+}
+#motive h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #5e5e5e;
+}
+#motive p{
+    /* font-weight: 700; */
+    width: 80%;
+    font-size: 2vw;
+    letter-spacing: -.05vw;
+    line-height: 1.7;
+    flex-wrap: wrap;
+    /* display: flex; */
+    text-align: right;
+    align-items: center;
+}
+#motive span{
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 100px;
+    margin: 0 13px;
+    margin-bottom: -12.5px;
+    background-color: red;
+}
+#onespan{
+    height: 50px;
+    width: 80px;
+    background-image: url(bluegirl.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+    
+}
+#twospan{
+    height: 60px;
+    width: 130px;
+    background-image: url(shaljam.jpg);
+    background-size: cover;
+    background-position: 0% 48%;
+}
+#threespan{
+    height: 50px;
+    width: 80px;
+    background-image: url(grass.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
 }
