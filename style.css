@@ -187,7 +187,7 @@ html,body{
 #pictures{
     display: flex;
     justify-content: space-between;
-    margin-top: 8vw;
+    margin-top: 7vw;
     padding: 3vw ;
     padding-left: 14vw;
     padding-right: 12vw;
@@ -248,4 +248,41 @@ html,body{
 #secpic p{
     width: 50%;
     text-align: right;
+}
+#banner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 7vw;
+}
+#bimg{
+    width: 65%;
+    height: 65vh;
+    background-color: red;
+}
+#bimg img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-position: 0% 70%;
+    object-fit: cover;
+    height: 25h;
+}
+#btext{
+    width: 35%;
+    padding: 0 3vw;
+}
+#btext h1{
+    letter-spacing: -.1vw;
+    font-weight: 400;
+    font-size: 2.4vw;
+    line-height: 1;
+}
+#btext p{
+    margin-top: 1vw;
+    width: 60%;
+    opacity: .7;
+    letter-spacing: -.05vw;
+    line-height: 1;
+    font-size: 1vw;
 }
