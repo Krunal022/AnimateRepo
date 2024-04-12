@@ -286,3 +286,41 @@ html,body{
     line-height: 1;
     font-size: 1vw;
 }
+#future{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100%;
+}
+#future video{
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)  ;
+}
+#ftext{
+    background: #fff;
+    padding: 1vw 2vw;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+}
+#ftext button{
+    padding: .8vw 1.7vw;
+    font-size: .6vw;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 100px;
+    background-color: white;
+    border: 1px solid #c6c6c6;
+    color: #6e6e6e;
+}
