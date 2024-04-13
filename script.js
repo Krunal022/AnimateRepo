@@ -5,5 +5,13 @@ const scroll = new LocomotiveScroll({
 });
 
 //gsap to animate
+gsap.from(".nlink",{
+    stagger:.1,
+    y:10,
+    duration:1,
+    ease:Power2,
+    opacity:0
+
+})
 //shery js to animate images according
 
