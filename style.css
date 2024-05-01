@@ -36,14 +36,12 @@ html,body{
     transform: translate(-50%,-50%);
 }
 #hero{
-    /* background-color: green; */
     display: flex ;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     margin-top: 15vw;
     padding: 0vw 10vw;
-    /* background-color: red; */
 }
 #sustain p{
     text-transform: capitalize;
@@ -51,14 +49,12 @@ html,body{
     opacity: .5;
     font-size: 15px;
     margin: 10px 0;
-    /* color: gray; */
 }
 #sustain #susimgwrapper{
     position: relative;
     overflow: hidden;
     width: 11vw;
     height: 15vw;
-    /* background-color: red; */
     
 }
 #susimgwrapper img{    
@@ -70,7 +66,6 @@ html,body{
     position: relative;
     width: 30vw;
     min-height: 42vw;
-    /* background-color: rgb(244, 182, 182); */
 }
 #ephemeral h1{
     line-height: 1;
@@ -84,10 +79,8 @@ html,body{
     left: -20%;
 }
 #imgntext{
-        /* background-color: red; */
         width: fit-content;
         height: fit-content;
-        /* background-color: rebeccapurple; */
 }
 #ephemeral img{
     width: 100%;
@@ -95,7 +88,6 @@ html,body{
     object-fit: cover;
 }
 #ephemeral p{
-    /* background-color: red; */
     font-size: 1.2vw;
     margin-top: 30px;
     width: 100%;
@@ -117,7 +109,6 @@ html,body{
     justify-content: center;
     width: 3vw;
     height: 3vw;
-    /* background-color: green; */
 }
 #circlev i{
     color: #5e5e5e;
@@ -140,13 +131,11 @@ html,body{
     color: #5e5e5e;
 }
 #motive p{
-    /* font-weight: 700; */
     width: 80%;
     font-size: 2.1vw;
     letter-spacing: -.1vw;
     line-height: 1.7;
     flex-wrap: wrap;
-    /* display: flex; */
     text-align: right;
     align-items: center;
 }
@@ -190,15 +179,12 @@ html,body{
      
 }
 #firstpic{
-    width: 17vw;
-    /* background-color: green; */
-    
+    width: 17vw;    
 }
 #firstpic #picimg{
     width: 100%;
     height: 24vw;
     margin-bottom: 1vw;
-    /* background-color: red; */
 }
 #picimg img{
     width: 100%;
@@ -219,21 +205,15 @@ html,body{
     margin-top: 10px;
 }
 #secpic{
-    
-    /* text-align: right; */
     display: flex;
     flex-direction: column;
     align-items: end;
-    width: 25vw;
-
-    /* background-color: green; */
-    
+    width: 25vw;    
 }
 #secpic #picimg{
     width: 100%;
     height: 37vw;
     margin-bottom: 1vw;
-    /* background-color: red; */
 }
 #picimg img{
     width: 100%;
@@ -254,7 +234,6 @@ html,body{
 #bimg{
     width: 65%;
     height: 65vh;
-    /* background-color: red; */
 }
 #bimg img{
     width: 100%;
@@ -292,7 +271,7 @@ html,body{
     width: 100%;
 }
 #future video{
-    opacity: 1;
+    opacity: 0;
     position: absolute;
     width: 100%;
     top: 50%;
